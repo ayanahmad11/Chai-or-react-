@@ -2,12 +2,13 @@
 import Bread from "./Bread"
 
 function App() {
-  
+  const username = "hitesh bhai" /*  known as expression  or evaluated expression
+  inside curly braces {} username is treated as variable */
   return (
    <div>
    
     <h1>
-      chai aur react with vite | HC
+      chai aur react with {username} | HC 
     </h1>
     <Bread>
     </Bread>
