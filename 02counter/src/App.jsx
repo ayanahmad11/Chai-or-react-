@@ -9,9 +9,18 @@ function App() {
   console.log('clicked',counter);
   // counter+=1;
   // console.log("value added",Math.random());
-  counter++;
-  setcounter(counter)
+  
+  setcounter(counter+1)
 
+  // setcounter(counter+1)  all of these would go in a batch so tree diff algo 
+                            // only implement the counter+1; 
+  // setcounter(counter+1)
+  // setcounter(counter+1)
+
+  // setcounter(prevCounter => prevCounter+1) this would increase value by 4
+  // setcounter(prevCounter => prevCounter+1)
+  // setcounter(prevCounter => prevCounter+1)
+  // setcounter(prevCounter => prevCounter+1)  
  }
  const removeValue = () =>{
   setcounter(counter-1)
